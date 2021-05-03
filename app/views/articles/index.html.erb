@@ -1,7 +1,7 @@
 <%= link_to "New Article", new_article_path %>
 
 <% if @articles.empty? %>
-  <h1 id="articles__noarticles"">No articles created</h1>
+  <h1 id="article__noarticles"">No articles created</h1>
 <% else %>
   <% @articles.each do |article| %>
     <div class="article__title">
