@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.feature "Show an article" do
 
   before do
-    @article = Article.create(title: "The first article", body: "Lorem ipsum")
+    @article = Article.create(title: "Show an article", body: "Lorem ipsum")
   end
 
   scenario "A user shows an article" do
